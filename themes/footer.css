@@ -1,0 +1,44 @@
+.mainfoot {
+    background-color : rgb(21, 40, 145);
+    padding: 50px 250px 0px 50px ;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.logo-footer {
+    width: 100px;
+    height: auto;
+}
+
+.title{
+    color: rgba(252, 0, 63);
+    font-family: jockey one;
+}
+.liens{
+     color: rgb(255, 255, 255);
+     font-family: jockey one;
+}
+.adresse {
+    color: white; font-family: kameron;
+    text-align: center;
+}
+.adresse p {
+    text-align: center;
+}
+.mentions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    background-color: var(--main-color);
+    color: white;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    border-top: solid 1px;
+    padding: 0 40px;
+}

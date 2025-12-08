@@ -1,0 +1,49 @@
+.space-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(21, 40, 145) }
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin-left: 20px; width: 100%;
+    background-color: rgb(21, 40, 145);
+}
+
+
+
+    .bouton-gauche {
+          p {color:rgb(21, 40, 145); background-color: white; border-radius: 10px; padding: 5px 10px; }
+        display: flex; 
+        justify-content: space-around; 
+        width: 100%; font-family: jockey one;
+    }
+
+    .bouton-droit {
+    p {color: rgb(21, 40, 145); background-color: white; border-radius: 10px; padding: 5px 10px;} 
+        display: flex;
+        justify-content: space-around;
+        width: 100%; font-family: jockey one;
+    }
+
+.logos-sociaux { display: flex; flex-direction: column; width: 20px; height: auto;
+
+}
+.logo-club {
+    width: 100px;
+    height: auto;
+         display: flex;
+        justify-content: center; align-items: end;
+}
+
+.bouton-menu {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    gap: 20%;
+    justify-content: center;
+    background-color: rgb(21, 40, 145);
+}
+

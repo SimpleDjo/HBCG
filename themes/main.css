@@ -1,0 +1,198 @@
+.tomphoto{
+    width: 100%;
+  height: 200px;
+  background-image: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(21, 40, 145, 0.17) 12%, rgba(21, 40, 145, 0.84) 100%), url('../images/tom_shoot.jpg');
+  background-size: cover;        /* couvre la zone */
+  background-position: 10% 30%;  /* déplace le point focal */
+  background-repeat: no-repeat;
+    }
+
+
+.hero {background-color: var(--main-color);}
+.topvideo {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    padding: 40px;
+    width: 100%;
+
+}
+
+.devise {
+    font-size: 30px;
+    color: white;
+    font-family: jockey one;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video {
+    width: 500px;
+    height: auto;
+    display: flex;
+}
+
+.past {
+    width: 100%;
+    padding: 50px;
+}
+
+.past p {
+    display: flex;
+    justify-content: center;
+    font-family: jockey one;
+    font-size: 40px;
+    color: var(--main-color);
+    width: 100%;
+}
+
+.pastimg {
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.futur {
+    background-color: var(--main-color);
+    padding: 50px;
+border-radius: 50px;
+    width: 100%;
+}
+
+.futur p {
+    font-family: jockey one;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.futurimg {
+    gap: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.affiche {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.sponsors {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.sponsortop {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sponsorbot {
+    display: flex;
+    justify-content: center;
+}
+
+.partenariat {
+    width: 100%;
+}
+
+.partenariat p {
+    color: var(--main-color);
+    font-size: 40px; font-family: jockey one;
+    display: flex;
+    justify-content: center;
+
+}
+.linkteams {
+    background-color: #152891;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    padding: 50px;
+border-radius: 50px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: jockey one;
+    font-size: 20px;
+}
+
+.linkresultats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+border-radius: 50px;
+}
+
+.resultats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: jockey one;
+    font-size: 20px;
+}
+
+.linkpics {
+    background-color: #152891;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding: 50px;
+border-radius: 50px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: jockey one;
+    font-size: 20px;
+}
+
+.linkjoin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+border-radius: 50px;
+
+}
+
+.rejoindre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: jockey one;
+    font-size: 20px;
+    
+}
+
+.picmenu {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    border-radius: 50px;
+}
+.mask-rectangle {
+        -webkit-mask-image: url('/images/Rectangle.svg');
+        -webkit-mask-size: cover;
+
+         mask-image: url('/images/Rectangle.svg');
+        mask-size: cover;
+        
+        width: 500px;
+        height: 500px;
+    
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IMG Mask</title>
+<style>
+
+    .mask-heptagone {
+        -webkit-mask-image: url('./heptagone.svg');
+        -webkit-mask-size: cover;
+        
+        mask-image: url('./heptagone.svg');
+        mask-size: cover;
+        
+        width: 300px;
+        height: 300px;
+    }
+    .mask-triangle {
+        -webkit-mask-image: url('./triangle.svg');
+        -webkit-mask-size: cover;
+        
+        mask-image: url('./triangle.svg');
+        mask-size: cover;
+        
+        width: 220px;
+        height: 186px;
+    }
+    .mask-rectangle {
+        -webkit-mask-image: url('./Rectangle.svg');
+        -webkit-mask-size: cover;
+
+         mask-image: url('./Rectangle.svg');
+        mask-size: cover;
+        
+        width: 500px;
+        height: 500px;
+        
+
+    }
+</style>
+</head>
+<body>
+    <img src="Semnumerica.jpg" alt="" class="mask-heptagone">
+    <img src="Semnumerica.jpg" alt="" class="mask-triangle">
+    <img src="Fred-lolo.jpg" alt="" class="mask-rectangle">
+</body>
+</html>
