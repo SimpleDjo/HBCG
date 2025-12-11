@@ -33,9 +33,15 @@
     display: flex;
 }
 
+.lastresults p { color: var(--main-color);
+font-family: jockey one;}
+
 .past {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 50px;
+
 }
 
 .past p {
@@ -43,37 +49,87 @@
     justify-content: center;
     font-family: jockey one;
     font-size: 40px;
-    color: var(--main-color);
     width: 100%;
 }
+.pastcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 
-.pastimg {
-    gap: 50px;
+}
+.pastcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--main-color);
+border-radius: 30px;
+width: 30%;
+padding: 10px;
+}
+
+.pastcard p {
+    color: white;
+    font-family: jockey one;
+    font-size: 20px;
     display: flex;
     justify-content: center;
 }
+.scores {
+    font-family: jockey one;
+    font-size: 20px;
+    color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
-.futur {
-    background-color: var(--main-color);
-    padding: 50px;
-border-radius: 50px;
-    width: 100%;
+}
+
+.scorematch {display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;}
+.logo-match {
+    width: 100px;
+    height: auto;
+
 }
 
 .futur p {
+    display: flex;
+    justify-content: center;
     font-family: jockey one;
     font-size: 40px;
-    color: white;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+}
+.futur {background-color: var(--main-color);
+display: flex;
+flex-direction: column;
+    width: 100%;
+    padding: 50px;}
+
+    .futurresults {
+        font-size: 40px;
+        color: white;
+        font-family: jockey one;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+.futurcard {
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white
+;
+border-radius: 30px;
+width: 100%;
 }
 
-.futurimg {
-    gap: 40px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-}
+
+
+
 
 .affiche {
     width: 300px;
