@@ -110,10 +110,11 @@ border-radius: 50px;
 
 }
 .linkteams {
+    width: 100%;
     background-color: #152891;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     padding: 50px;
 border-radius: 50px;
@@ -128,9 +129,10 @@ border-radius: 50px;
 }
 
 .linkresultats {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px;
 border-radius: 50px;
 }
@@ -144,6 +146,7 @@ border-radius: 50px;
 }
 
 .linkpics {
+    width: 100%;
     background-color: #152891;
     display: flex;
     flex-direction: row;
@@ -162,6 +165,7 @@ border-radius: 50px;
 }
 
 .linkjoin {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -186,13 +190,14 @@ border-radius: 50px;
     border-radius: 50px;
 }
 .mask-rectangle {
-        -webkit-mask-image: url('/images/Rectangle.svg');
+        -webkit-mask-image: url('../img-mask/Rectangle.svg');
         -webkit-mask-size: cover;
 
-         mask-image: url('/images/Rectangle.svg');
+         mask-image: url('../img-mask/Rectangle.svg');
         mask-size: cover;
         
         width: 500px;
-        height: 500px;
+        height: auto;
     
     }
+
